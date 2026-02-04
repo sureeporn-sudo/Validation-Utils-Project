@@ -7,6 +7,7 @@ The project was developed as part of an object-oriented programming / software t
 ---
 ## 📦 Project Structure
 
+```text
 Validation-Utils-Project-Java/
 ├─ src/
 │ ├─ main/java/com/sureeporn/utils
@@ -15,6 +16,7 @@ Validation-Utils-Project-Java/
 │ └─ ValidationUtilsTest.java
 ├─ pom.xml
 └─ README.md
+```
 
 ---
 
