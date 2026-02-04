@@ -56,11 +56,14 @@ To run all tests, use:
 ```bash
 mvn clean test
 ```
+
 You should see output similar to:
+```bash
 Tests run: XX, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
+```
 
-📌 Example Validations
+## 📌 Example Validations
 
 Here are some examples of how to use the utility methods:
 
