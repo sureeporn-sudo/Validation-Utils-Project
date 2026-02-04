@@ -63,6 +63,7 @@ BUILD SUCCESS
 📌 Example Validations
 
 Here are some examples of how to use the utility methods:
+```bash
 ValidationUtils utils = new ValidationUtils();
 
 // Email
@@ -80,15 +81,11 @@ assertFalse(utils.isValidPhoneNumber("123456"));
 // ZIP Code
 assertTrue(utils.isValidZipCode("12345-6789"));
 assertFalse(utils.isValidZipCode("ABCDE"));
-
+```
 🧪 Why This Matters
 
-This project demonstrates:
-
-How to design reusable validation utilities
-
-How to write comprehensive unit tests
-
-How to handle edge cases and invalid input
-
-Good practices for code organization with Maven
+## This project demonstrates:
+- How to design reusable validation utilities
+- How to write comprehensive unit tests
+- How to handle edge cases and invalid input
+- Good practices for code organization with Maven
