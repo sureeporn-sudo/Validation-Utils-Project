@@ -82,28 +82,8 @@ assertFalse(utils.isValidPhoneNumber("123456"));
 assertTrue(utils.isValidZipCode("12345-6789"));
 assertFalse(utils.isValidZipCode("ABCDE"));
 
-```bash
-ValidationUtils utils = new ValidationUtils();
-
-// Email
-assertTrue(utils.isValidEmail("john.doe@example.com"));
-assertFalse(utils.isValidEmail("john@"));
-
-// Password
-assertTrue(utils.isValidPassword("Abc12345"));
-assertFalse(utils.isValidPassword("password"));
-
-// Phone
-assertTrue(utils.isValidPhoneNumber("123-456-7890"));
-assertFalse(utils.isValidPhoneNumber("123456"));
-
-// ZIP Code
-assertTrue(utils.isValidZipCode("12345-6789"));
-assertFalse(utils.isValidZipCode("ABCDE"));
-```
-🧪 Why This Matters
-
-## This project demonstrates:
+## 🧪 Why This Matters
+This project demonstrates:
 - How to design reusable validation utilities
 - How to write comprehensive unit tests
 - How to handle edge cases and invalid input
