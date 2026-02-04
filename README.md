@@ -64,6 +64,7 @@ BUILD SUCCESS
 
 Here are some examples of how to use the utility methods:
 
+```bash
 ValidationUtils utils = new ValidationUtils();
 
 // Email
@@ -81,6 +82,8 @@ assertFalse(utils.isValidPhoneNumber("123456"));
 // ZIP Code
 assertTrue(utils.isValidZipCode("12345-6789"));
 assertFalse(utils.isValidZipCode("ABCDE"));
+```
+---
 
 ## 🧪 Why This Matters
 This project demonstrates:
