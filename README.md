@@ -5,7 +5,16 @@ This repository contains a Java utility library called **ValidationUtils**, alon
 The project was developed as part of an object-oriented programming / software testing assignment. It focuses on validating common input patterns and demonstrates fundamental testing practices such as edge case handling and exception verification.
 
 ---
+## 📦 Project Structure
 
+Validation-Utils-Project-Java/
+├─ src/
+│ ├─ main/java/com/sureeporn/utils
+│ │ └─ ValidationUtils.java
+│ └─ test/java/com/sureeporn/utils
+│ └─ ValidationUtilsTest.java
+├─ pom.xml
+└─ README.md
 
 ---
 
@@ -46,7 +55,7 @@ To run all tests, use:
 
 ```bash
 mvn clean test
-
+```
 You should see output similar to:
 Tests run: XX, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
